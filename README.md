@@ -1,48 +1,42 @@
-# Java ile ?zyinelemeli ?s Alma
+# Java Recursive Üs Alma - Enes Öztürk
 
-Taban ve ?s de?erlerinden recursive metotla ?s alma i?lemini g?steren, ?a?r? y???n?n? g?rselle?tiren interaktif Java algoritma uygulamas?.
+![Java Recursive Üs Alma - Enes Öztürk — rozet](docs/rozet.svg)
 
-## ?zellikler
+> **Java · nesne yönelimli programlama** — tasarım ve geliştirme: **Enes Öztürk**
 
-- ?s alma ad?mlar?n?n sim?lasyonu
-- recursive ?a?r? y???n?n?n g?rsel takibi
-- Java kodu ve canl? konsol sim?lat?r?.
+---
 
-## Teknolojiler
+Java dilinde recursive metot ile üslü sayı hesaplama programı, canlı konsol simülatörü ve adım adım çağrı yığını (call stack) görselleştiricisi. Hazırlayan: Enes Öztürk.
 
-- React
-- TypeScript
-- Vite
+## Öne çıkanlar
 
-Bu depo, Java algoritmalar?n? taray?c? tabanl? bir aray?zde a??klamak ve sim?le etmek i?in haz?rlanm??t?r. Java ?rnek kodlar? uygulama i?inde incelenebilir; web aray?z?n? ?al??t?rmak i?in Node.js gerekir.
+- Sınıf ve metot yapısı, kapsülleme ve kalıtım
+- Döngü, koşul ve koleksiyon kullanımı
+- Konsol çıktısı ve girdi doğrulama
+- Arayüzde canlı simülasyon ve kaynak kod görünümü
 
-## Kurulum ve ?al??t?rma
-
-**Gereksinimler:** G?ncel bir Node.js LTS s?r?m? ve npm.
+## Kurulum ve çalıştırma
 
 ```bash
 npm install
-npm run dev
+npm run dev        # http://localhost:3000
 ```
 
-Geli?tirme sunucusunu ba?latt?ktan sonra terminalde g?sterilen yerel adresi taray?c?da a??n.
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | geliştirme sunucusu |
+| `npm run build` | üretim derlemesi |
 
-## Kontroller ve ?retim derlemesi
+## Proje yapısı
 
-```bash
-npm run lint
-npm run build
+```
+├── index.html
+├── package.json
+├── docs/rozet.svg        # imza rozeti
+└── src/                  # uygulama kaynakları
 ```
 
-`npm run lint` TypeScript denetimini, `npm run build` ise da??t?m dosyalar?n?n olu?turulmas?n? ?al??t?r?r. Derlemeyi yerel olarak g?r?nt?lemek i?in ?nce `npm run build`, ard?ndan `npm run preview` komutlar?n? kullan?n.
+## Lisans
 
-## Proje yap?s?
-
-- `src/components/` ? aray?z, sim?lat?r ve g?rselle?tirme bile?enleri
-- `src/components/CallStackVisualizer.tsx, src/utils/recursionSimulator.ts` ? algoritman?n temel uygulama bile?enleri
-- `src/main.tsx` ? uygulama ba?lang?? noktas?
-- `package.json` ? ba??ml?l?klar ve npm komutlar?
-
-## Katk?
-
-De?i?iklik ?nermeden ?nce ilgili algoritma ad?mlar?n?n do?ru ?al??t???n? do?rulay?n. Kod bi?imini ve mevcut TypeScript tiplerini koruyun.
+Bu proje **Enes Öztürk** tarafından geliştirilmiştir; tüm hakları saklıdır.
